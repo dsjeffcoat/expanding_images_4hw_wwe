@@ -12,6 +12,7 @@ body {
    height: 100vh;
    overflow: hidden;
    margin: 0;
+   background-color: rgb(43, 42, 42);
 }
 
 .container {
@@ -41,13 +42,14 @@ body {
     left: 20px;
     margin: 0;
     opacity: 0;
-    box-shadow: 0.25 0.25 black;
+    text-shadow: .1rem .1rem black;
 }
 
 .panel.active {
-    flex: 5;
     filter: grayscale(0%);
     transition: filter 0.3s ease-in;
+    flex: 5;
+    box-shadow: 5px 5px rgb(19, 19, 19);
 }
 
 .panel.active h3 {
