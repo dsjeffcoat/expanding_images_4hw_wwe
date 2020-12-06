@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'SmackLaidethDown2016';
+    src: url('fonts/SmackLaidethDown2016Oblique-AY92.ttf')
+}
 body {
    font-family: 'Muli', sans-serif;
    display: flex;
@@ -20,8 +24,16 @@ body {
    background-blend-mode: multiply;
 }
 
-.background {
+.header {
+    text-align: center;
+    color: rgb(177, 2, 2);
+    font-family: 'SmackLaidethDown2016';
+    text-shadow: 1px 1px black;
+}
 
+.header h2 {
+    color: rgb(167, 165, 165);
+    text-shadow: 1px 1px black;
 }
 
 .container {
@@ -46,7 +58,7 @@ body {
 }
 
 .panel h3 {
-    font-size: 24px;
+    font-size: 36px;
     position: absolute;
     bottom: 20px;
     left: 20px;
