@@ -12,7 +12,16 @@ body {
    height: 100vh;
    overflow: hidden;
    margin: 0;
-   background-color: rgb(43, 42, 42);
+   background: rgb(68, 68, 68);
+   background-image: url('images/wwebackground.jpeg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-blend-mode: multiply;
+}
+
+.background {
+
 }
 
 .container {
@@ -33,6 +42,7 @@ body {
     position: relative;
     filter: grayscale(100%);
     transition: flex 0.7s ease-in;
+    opacity: 1.0 !important;
 }
 
 .panel h3 {
